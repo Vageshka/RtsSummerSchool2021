@@ -1,0 +1,1 @@
+SUBSYSTEM=="usb",ACTION=="add",KERNEL=="sd[b-z][0-9]",RUN+="/bin/device_added.sh %k"
